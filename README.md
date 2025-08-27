@@ -24,4 +24,9 @@ pip install -U transformers accelerate torch
 python check_gpu_cpu.py
 python distilgpt2_quickstart.py
 
+Notes
+CPU is fine for learning the workflow.
+If slow, keep max_new_tokens small (e.g., 80).
+I used ChatGPT, GitHub Copilot, and Google Gemini to write/debug the code.
 
+---
